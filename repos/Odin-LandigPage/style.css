@@ -26,8 +26,50 @@ align-items: baseline;
     display: flex;
     gap:20px;
 }
+.secondary,
 a:link{
     color:#E5E7EB;
     font-size: 18px;
     text-decoration: none;
+}
+
+.welcome {
+    padding: 7em 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.welcome .left{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.welcome .right{
+    flex-shrink:0;
+    width:50%;
+}
+.hero{
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight:900;
+}
+
+ button{
+    padding:7px 1em;
+    width:120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+welcome button{
+    border:none;
+}
+
+.image {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 215px;
 }
